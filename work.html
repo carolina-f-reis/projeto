@@ -1,0 +1,29 @@
+---
+layout: page
+title: Work
+---
+
+<ul>
+    {% for post in site.posts %}
+      <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
+
+<div class="works flex-container">
+  {% for work in site.work %}
+    <article class="works-list">
+      <a href="{{ work.url }}">
+        <div class="img-overlay">
+          <img src="{{ work.thumbnail }}" alt="{{ work.title }}" width="600" height="450" class="img-overlay-image">
+          <div class="overlay">
+            <div class="text">{{ work.description }}</div>
+          </div>
+        </div>  
+      </a>
+      <h2>{{ work.title }}</h2>
+    </article>
+  {% endfor %}
+</div>
+
+
+  

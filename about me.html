@@ -1,0 +1,13 @@
+---
+layout: page
+title: About me
+---
+
+<div>
+    <ul>{% for frutas in site.data.frutas %}
+        <li>
+            {{ frutas.nome }}, {{ frutas.cor }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
