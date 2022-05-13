@@ -12,7 +12,7 @@
 title: Portfolio - Carolina Reis
 email: carolina.f.reis98@gmail.com
 baseurl: "/projeto" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://127.0.0.1:4000/projeto/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social networks
 social-username:
