@@ -30,8 +30,6 @@ body {
   padding: 0;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -81,6 +79,7 @@ figcaption {
  */
 ul, ol {
   margin-left: $spacing-unit;
+  list-style-type: none;
 }
 
 li {
@@ -110,7 +109,6 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: line-through #EB5A47 4px;
   }
 
   /**.page-link &:hover {
@@ -120,8 +118,22 @@ a {
 }
 
 /**
- * Menu hover
+ * Button
 */
+
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #EB5A47;
+  border-radius: 8px;
+  color: #ffffff;
+}
 
 
 /**
@@ -139,36 +151,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
-}
-
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
-
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-
 
 /**
  * Wrapper

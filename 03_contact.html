@@ -1,0 +1,28 @@
+---
+layout: page
+title: Contact
+order: 3
+permalink: /contact/
+---
+
+<div class="container">
+
+  
+    <div class="contact-form">
+        <form netlify action="/contact/confirmation">
+              <label for="name">Name
+                <input autofocus type="text" name="name" id="name">
+              </label>
+
+              <label for="email">Email
+                <input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+              </label>
+  
+              <label for="message">Message
+                <textarea required name="message" id="message"></textarea>
+              </label>         
+  
+            <input class="button" type="submit" value="Send Message">
+        </form>
+    </div>
+</div>
