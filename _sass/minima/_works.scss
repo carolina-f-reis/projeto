@@ -1,12 +1,19 @@
-//Layout
+//Layout Works
 
 .works{
 
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1em 2em;
   justify-content: space-between;
 
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;*/
+
   .works-list {
+
 
     .img-overlay {
       position: relative;
@@ -48,4 +55,15 @@
       opacity: 1;
     }    
   }
+}
+
+//Layout Work individual
+
+.project-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "img-1 img-2"
+    "img-3 img-3";
 }
