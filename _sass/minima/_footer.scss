@@ -1,0 +1,33 @@
+/**
+ * Site footer
+ */
+
+ .footer {
+    text-align: center;
+    margin-top: auto;
+
+    .social {
+        margin-bottom: 15px;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+  @media only screen and (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+
+    .copyright {
+      order: 1;
+    }
+    
+    .social {
+      order: 2;
+      display: flex;
+    }
+    
+    .social a {
+      margin-left: 60px;
+    }
+  }
+  
+}

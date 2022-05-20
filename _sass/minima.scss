@@ -21,7 +21,6 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1200px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -46,10 +45,10 @@ $on-laptop:        800px !default;
 // Import partials.
 @import
 "minima/base",
-"minima/layout",
-"minima/syntax-highlighting",
+"minima/index",
+"minima/footer",
+"minima/header",
 "minima/works",
-"minima/animation",
 "minima/contacts",
 "minima/about-me"
 ;
