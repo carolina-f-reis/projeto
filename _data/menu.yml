@@ -1,9 +1,0 @@
-menu:
-  - title: Portfolio1
-    subfolderitems:
-      - page: Projeto1
-        link: /projeto1
-      - page: Projeto2
-        link: /projeto2
-      - page: Projeto3
-        link: /projeto3
