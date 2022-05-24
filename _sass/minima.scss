@@ -32,6 +32,13 @@ $on-laptop:        800px !default;
   }
 }
 
+// Mixin rounded-corner
+@mixin rounded-corner($arc) {
+  -moz-border-radius: $arc;
+  -webkit-border-radius: $arc;
+  border-radius: $arc;  
+}
+
 
 // Import partials.
 @import

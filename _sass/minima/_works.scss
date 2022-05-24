@@ -25,6 +25,7 @@
         opacity: 0;
         transition: .5s ease;
         background-color: rgba(0,0,0,.7);
+        @include rounded-corner(10px); 
       
         .text {
           color: white;
